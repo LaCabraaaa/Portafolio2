@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LA CABRA | Staff Manager Portafolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #000;
+      overflow-x: hidden;
+    }
+
+    .glass {
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .card-hover {
+      transition: all .35s ease;
+    }
+
+    .card-hover:hover {
+      transform: translateY(-8px) scale(1.02);
+      border-color: rgba(34,211,238,.6);
+      box-shadow: 0 0 40px rgba(34,211,238,.15);
+    }
+
+    .glow {
+      box-shadow: 0 0 80px rgba(0,255,255,.15);
+    }
+
+    .floating {
+      animation: floating 4s ease-in-out infinite;
+    }
+
+    @keyframes floating {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+<body class="text-white min-h-screen relative">
+
+  <div class="absolute inset-0 bg-gradient-to-br from-purple-900/40 via-black to-cyan-900/40"></div>
+
+  <header class="relative z-10 text-center px-6 py-24">
+    <div class="inline-block px-5 py-2 rounded-full glass mb-8 animate-pulse">
+       Staff Manager Portfolio
+    </div>
+
+    <h1 class="text-6xl md:text-8xl font-black bg-gradient-to-r from-cyan-400 via-white to-purple-500 text-transparent bg-clip-text floating">
+      LA CABRA
+    </h1>
+
+    <p class="mt-6 text-xl md:text-2xl text-gray-300 font-medium">
+      Staff Manager • Community Manager • Minecraft Moderator
+    </p>
+
+    <div class="max-w-4xl mx-auto mt-10 text-gray-400 text-lg leading-relaxed">
+      Hola, soy <span class="text-cyan-400 font-bold">La Cabra</span>, tengo 16 años y cuento con más de 8 meses de experiencia como Staff Manager y más de 1 año trabajando en distintos servidores grandes y pequeños.
+      Aprendí a manejar comunidades, organizar equipos de staff, moderar servidores y trabajar de forma profesional dentro de proyectos a largo plazo.
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-16">
+      <div class="glass rounded-3xl p-10 card-hover">
+        <h2 class="text-5xl font-black text-cyan-400">8+</h2>
+        <p class="mt-4 text-gray-400 text-lg">Meses como Manager</p>
+      </div>
+
+      <div class="glass rounded-3xl p-10 card-hover">
+        <h2 class="text-5xl font-black text-cyan-400">15+</h2>
+        <p class="mt-4 text-gray-400 text-lg">Servidores trabajados</p>
+      </div>
+
+      <div class="glass rounded-3xl p-10 card-hover">
+        <h2 class="text-5xl font-black text-cyan-400">7h</h2>
+        <p class="mt-4 text-gray-400 text-lg">Actividad diaria</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10 px-6 pb-24 max-w-7xl mx-auto space-y-24">
+
+    <section>
+      <h2 class="text-5xl font-black mb-10 bg-gradient-to-r from-white to-gray-500 text-transparent bg-clip-text">
+         Experiencia como Manager
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">ArkanMc</h3>
+            <span class="px-3 py-1 rounded-full bg-green-500/20 text-green-400 font-bold text-sm">Actual</span>
+          </div>
+          <p class="text-gray-400">Staff Manager</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">KagadaMc</h3>
+            <span class="px-3 py-1 rounded-full bg-red-500/20 text-red-400 font-bold text-sm">Resign</span>
+          </div>
+          <p class="text-gray-400">Coord Staff y Manager Media</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">RazBoxNet</h3>
+            <span class="px-3 py-1 rounded-full bg-green-500/20 text-green-400 font-bold text-sm">Actual</span>
+          </div>
+          <p class="text-gray-400">Staff Manager</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">WillowMC</h3>
+            <span class="px-3 py-1 rounded-full bg-red-500/20 text-red-400 font-bold text-sm">Resign</span>
+          </div>
+          <p class="text-gray-400">Dueño</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">KarionNetwork</h3>
+            <span class="px-3 py-1 rounded-full bg-red-500/20 text-red-400 font-bold text-sm">Resign</span>
+          </div>
+          <p class="text-gray-400">Dueño</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">ValkyMC</h3>
+            <span class="px-3 py-1 rounded-full bg-red-500/20 text-red-400 font-bold text-sm">Resign</span>
+          </div>
+          <p class="text-gray-400">Coordinador</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-5xl font-black mb-4 bg-gradient-to-r from-white to-gray-500 text-transparent bg-clip-text">
+         Experiencia en Comunidades
+      </h2>
+
+      <p class="text-gray-400 text-lg mb-10">
+        Participación en distintas comunidades y grupos relacionados a Minecraft.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">BoxPvP Tierlist</h3>
+            <span class="px-3 py-1 rounded-full bg-red-500/20 text-red-400 font-bold text-sm">Resign</span>
+          </div>
+          <p class="text-gray-400">Operador</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">Lunar Ember</h3>
+            <span class="px-3 py-1 rounded-full bg-yellow-500/20 text-yellow-400 font-bold text-sm">Cerró</span>
+          </div>
+          <p class="text-gray-400">Manager / Owner</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">Camilolocho Community</h3>
+             <span class="px-3 py-1 rounded-full bg-red-500/20 text-red-400 font-bold text-sm">Resign</span>
+          </div>
+          <p class="text-gray-400">Manager</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">Goldy Community</h3>
+            <span class="px-3 py-1 rounded-full bg-green-500/20 text-green-400 font-bold text-sm">Actual</span>
+          </div>
+          <p class="text-gray-400">Operador</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">zNico Community</h3>
+            <span class="px-3 py-1 rounded-full bg-red-500/20 text-red-400 font-bold text-sm">Resign</span>
+          </div>
+          <p class="text-gray-400">Helper</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold">Sloter Community</h3>
+            <span class="px-3 py-1 rounded-full bg-red-500/20 text-red-400 font-bold text-sm">Resign</span>
+          </div>
+          <p class="text-gray-400">Helper</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-5xl font-black mb-4 bg-gradient-to-r from-white to-gray-500 text-transparent bg-clip-text">
+         Experiencia como Staff
+      </h2>
+
+      <p class="text-gray-400 text-lg mb-10">
+        Experiencia moderando y administrando distintos servidores.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <h3 class="text-2xl font-bold mb-4">MineSplash</h3>
+          <p class="text-gray-400">Mod — Resign</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <h3 class="text-2xl font-bold mb-4">SpookMC</h3>
+          <p class="text-gray-400">Mod — Resign</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <h3 class="text-2xl font-bold mb-4">SunCraft</h3>
+          <p class="text-gray-400">T-Mod — Resign</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <h3 class="text-2xl font-bold mb-4">PrismaMC</h3>
+          <p class="text-gray-400">Chat-Mod — Resign</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <h3 class="text-2xl font-bold mb-4">Valkyrian</h3>
+          <p class="text-gray-400">Sr.Admin — Resign</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <h3 class="text-2xl font-bold mb-4">AstralMC</h3>
+          <p class="text-gray-400">Mod+ — Resign</p>
+        </div>
+
+        <div class="glass rounded-3xl p-7 card-hover">
+          <h3 class="text-2xl font-bold mb-4">NightBox</h3>
+          <p class="text-gray-400">Mod — Resign</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+      <div class="glass rounded-3xl p-8 card-hover">
+        <h2 class="text-3xl font-bold mb-6 text-cyan-400"> Sobre SS</h2>
+
+        <p class="text-gray-300 leading-relaxed text-lg">
+          No soy experto en SS, pero cuento con conocimientos básicos y sé defenderme correctamente.
+          Actualmente sigo aprendiendo para mejorar más en este apartado.
+        </p>
+      </div>
+
+      <div class="glass rounded-3xl p-8 card-hover">
+        <h2 class="text-3xl font-bold mb-6 text-purple-400"> Datos Extras</h2>
+
+        <div class="space-y-4 text-gray-300 text-lg">
+          <div class="bg-white/5 rounded-2xl p-4">✔ Constancia en proyectos a largo plazo.</div>
+          <div class="bg-white/5 rounded-2xl p-4">✔ Capacidad para trabajar de forma autónoma.</div>
+          <div class="bg-white/5 rounded-2xl p-4">✔ Buen trabajo en equipo.</div>
+          <div class="bg-white/5 rounded-2xl p-4">✔ Respeto hacia roles técnicos y creativos.</div>
+          <div class="bg-white/5 rounded-2xl p-4">✔ Actividad de 5 a 7 horas diarias.</div>
+          <div class="bg-white/5 rounded-2xl p-4">✔ Conocimientos básicos de comandos.</div>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <h2 class="text-5xl font-black mb-10 bg-gradient-to-r from-white to-gray-500 text-transparent bg-clip-text">
+         Reseñas
+      </h2>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <div class="text-5xl mb-4">❝</div>
+          <p class="text-gray-300 text-lg leading-relaxed">
+            Cabra es un staff fiel y dedicado. Destacó mucho en entrevistas y moderación, manteniendo buena actividad y evitando errores.
+          </p>
+
+          <div class="mt-8 border-t border-white/10 pt-4">
+            <h3 class="font-bold text-xl text-cyan-400">LeadVal</h3>
+            <p class="text-gray-500">Owner de MineSplash</p>
+          </div>
+        </div>
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <div class="text-5xl mb-4">❝</div>
+          <p class="text-gray-300 text-lg leading-relaxed">
+            Es muy trabajador y sabe manejar un servidor completo. Tiene experiencia, liderazgo y siempre ayuda en todo.
+          </p>
+
+          <div class="mt-8 border-t border-white/10 pt-4">
+            <h3 class="font-bold text-xl text-cyan-400">Mothon</h3>
+            <p class="text-gray-500">MineNight / TheronMC</p>
+          </div>
+        </div>
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <div class="text-5xl mb-4">❝</div>
+          <p class="text-gray-300 text-lg leading-relaxed">
+            Fue un gran compañero y moderador. Nunca causó problemas y trabajaba muy bien en equipo.
+          </p>
+
+          <div class="mt-8 border-t border-white/10 pt-4">
+            <h3 class="font-bold text-xl text-cyan-400">Mate / zSnowyxz</h3>
+            <p class="text-gray-500">Ex compañero</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="relative overflow-hidden rounded-[40px] border border-cyan-500/20 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 p-12 text-center glow">
+      <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top_right,cyan,transparent_40%)]"></div>
+
+      <div class="relative z-10">
+        <h2 class="text-5xl font-black bg-gradient-to-r from-cyan-400 to-purple-400 text-transparent bg-clip-text">
+          DISPONIBLE!
+        </h2>
+
+        <p class="mt-6 text-gray-300 text-xl max-w-3xl mx-auto leading-relaxed">
+          Experiencia, actividad, liderazgo y compromiso para llevar cualquier proyecto al siguiente nivel.
+        </p>
+
+        <div class="mt-10 flex flex-wrap justify-center gap-4">
+          <button class="px-8 py-4 rounded-2xl bg-cyan-500 hover:bg-cyan-400 text-black font-bold text-lg transition hover:scale-105 shadow-lg shadow-cyan-500/40">
+             Staff Manager
+          </button>
+
+          <button class="px-8 py-4 rounded-2xl bg-purple-500 hover:bg-purple-400 text-white font-bold text-lg transition hover:scale-105 shadow-lg shadow-purple-500/40">
+             Community Manager
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
